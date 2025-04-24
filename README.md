@@ -23,5 +23,21 @@ A machine learning-based application that predicts wine varieties from review da
 
 ## ⚙️ How to Run
 1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the model notebook OR start the Flask server:
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the Flask API:
+
+python app.py
+
+
+4. Use Postman or browser to hit the prediction endpoint:
+
+http://localhost:5000/predict
+
+
+
+📬 Contact
+
+Created by Iresh Tetarwal
+Open to remote ML/automation projects and freelance opportunities.
